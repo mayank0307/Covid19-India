@@ -222,7 +222,7 @@ h6 {
     font-weight: 600;
     font-size: 12px;
     padding: 1.5rem;
-    color: $gray;
+    color: $dark;
     cursor: pointer;
   }
 
@@ -231,9 +231,9 @@ h6 {
     font-weight: 900;
     font-family: 'archia';
     font-size: 18px;
-    color: $gray;
+    color: $orange;
     span {
-      color: $pblue;
+      color: $green;
     }
   }
 
@@ -242,7 +242,7 @@ h6 {
     font-family: 'archia';
     font-weight: 600;
     font-size: 12px;
-    color: $gray;
+    color: $dark;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     width: 2rem;
@@ -261,15 +261,15 @@ h6 {
     height: 100vh;
     width: 100vw;
     top: 3.85rem;
-    background: $gray-light-opaque;
+    background: $blue-hover;
     z-index: 9999;
     & > * {
-      padding: 1.5rem;
+      padding: 2rem;
       border-top: 1px solid $gray-light;
       border-bottom: 1px solid $gray-light;
       transition: all 0.15s ease-in-out;
       &:hover {
-        background: $gray-hover;
+        background: $blue-hover;
       }
     }
 
@@ -1170,7 +1170,7 @@ h6 {
         position: absolute;
         width: 7px;
         height: 7px;
-        background: $pblue;
+        background: $orange;
         top: -3px;
         right: -3px;
         border-radius: 50%;
@@ -2409,8 +2409,8 @@ input.switch:checked::after {
 }
 
 .link {
-  width: 30rem;
-  margin-top: 1rem;
+  width: 50rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   align-self: center;
 
@@ -3579,7 +3579,7 @@ body.modal-open {
         font-weight: 600;
       }
 
-      h2 {
+      h2 { color:black;
       }
 
       h5 {

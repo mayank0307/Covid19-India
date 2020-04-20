@@ -1,5 +1,20 @@
 import axios from 'axios';
 import {promises as fs} from 'fs';
+import React from 'react';
+import {Helmet} from 'react-helmet';
+
+class Application extends React.Component {
+  render () {
+    return (
+        <div className="application">
+            <Helmet>
+                <style>{'body { background-color: red; }'}</style>
+            </Helmet>
+            ...
+        </div>
+    );
+  }
+};
 
 export function removeFileExtension(fileName) {
   return fileName.substr(0, fileName.lastIndexOf('.'));

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Redirect} from 'react-router-dom';
 import {AnimatedSwitch} from 'react-router-transition';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
 import Home from './components/home';
@@ -12,6 +12,7 @@ import PatientDB from './components/patientdb';
 import DeepDive from './components/deepdive';
 import Resources from './components/resources';
 import State from './components/state';
+
 
 function App() {
   const pages = [
